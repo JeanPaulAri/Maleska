@@ -1,11 +1,12 @@
 import React from 'react';
 
-import './App.css';
+import './App.scss';
+import { HomePage } from './views/HomePage';
 
 function App() {
   return (
     <div className="App">
-      Hello World
+      <HomePage />
     </div>
   );
 }
