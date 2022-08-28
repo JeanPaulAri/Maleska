@@ -14,7 +14,7 @@ function Navbar() {
   }, []);
   // console.log(currentTime.format('HH:mm:ss'));
   return (
-    <div className="navbar">
+    <div className="navbar-container">
       <span>
         NavBar
         {' '}
