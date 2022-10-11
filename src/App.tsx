@@ -3,14 +3,12 @@ import React from 'react';
 import 'antd/dist/antd.min.css';
 
 import './App.scss';
-import HomePage from './views/HomePage';
-import Navbar from './components/NavBar';
+import Base from './wrappers/Layout';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <HomePage />
+      <Base />
     </div>
   );
 }
