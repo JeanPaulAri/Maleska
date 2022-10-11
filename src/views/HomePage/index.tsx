@@ -10,6 +10,7 @@ function HomePage() {
   const percentage = 40;
   return (
     <div className="Homepage-container">
+      <Navbar />
       <Row align="middle" justify="center">
         <span>
           HomePage
