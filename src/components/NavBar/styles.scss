@@ -1,7 +1,13 @@
+@import './src/styles/Colors';
+@import './src/styles/Fonts';
+
 .navbar-container{
+  @include ui-font();
   flex: 1;
   text-align: center;
   justify-content: center;
-  border: 2px solid chocolate;
-  border-radius: 10px;
+  border: 2px solid $darkSalmon;
+  border-radius: 5px;
+  background-color: $raisinBlack;
+  color: $maleskaWhite;
 }
