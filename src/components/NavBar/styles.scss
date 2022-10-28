@@ -1,13 +1,25 @@
-@import './src/styles/Colors';
-@import './src/styles/Fonts';
+@import './src/styles/Tools';
 
 .navbar-container{
   @include ui-font();
+  display: flex;
   flex: 1;
   text-align: center;
-  justify-content: center;
+  justify-content: space-evenly;
   border: 2px solid $darkSalmon;
   border-radius: 5px;
   background-color: $raisinBlack;
   color: $maleskaWhite;
+
+  &__logo{
+    @include logo-font();
+    color: $timberWolf;
+    font-size: xx-large;
+    font-weight: lighter;
+
+    &:hover{
+      text-shadow: 0 0 3px $babyPink;
+    }
+  }
+
 }

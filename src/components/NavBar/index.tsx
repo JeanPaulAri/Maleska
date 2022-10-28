@@ -19,9 +19,10 @@ function Navbar() {
 
   return (
     <div className="navbar-container">
+      <div className="navbar-container__logo">
+        <span>Maleska</span>
+      </div>
       <span>
-        NavBar
-        {' '}
         {currentTime.format('HH:mm:ss')}
       </span>
       <Row>
