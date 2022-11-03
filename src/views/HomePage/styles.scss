@@ -1,6 +1,15 @@
-.Homepage-container{
-  flex: 6;
+@import './src/styles/Colors';
+
+.homepage-container{
+  // height:100%;
   text-align: center;
   border: 2px solid black;
   border-radius: 10px;
+  &__pdf-visualizer{
+    border-radius: 15px;
+    border-color: $maleskaBlack;
+  }
+  &__bg-1{
+    background-image: url('./src/assets/homepage/bg1.jpeg');
+  }
 }

@@ -1,5 +1,8 @@
 @import './src/styles/Tools';
-
+@keyframes hoverLogo {
+  from {text-shadow: 0 0 13px $maleskaWhite}
+  to {color: $timberWolf }
+}
 .navbar-container{
   @include ui-font();
   display: flex;
@@ -18,7 +21,9 @@
     font-weight: lighter;
 
     &:hover{
-      text-shadow: 0 0 3px $babyPink;
+      // text-shadow: 0 0 3px $babyPink;
+      animation-name: hoverLogo;
+      animation-duration: 2s;
     }
   }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Progress, Row } from 'antd';
+import { Image, Progress, Row } from 'antd';
 
 // import Navbar from '../../components/NavBar';
 
@@ -9,7 +9,7 @@ import './styles.scss';
 function HomePage() {
   const percentage = 40;
   return (
-    <div className="Homepage-container">
+    <div className="homepage-container">
       <Row align="middle" justify="center">
         <span>
           HomePage
@@ -27,6 +27,11 @@ function HomePage() {
           showInfo={false}
           format={(percent) => `${percent}%`}
         />
+      </Row>
+      <Row>
+        <div className="homepage-container__bg-1">
+          image background
+        </div>
       </Row>
     </div>
   );
