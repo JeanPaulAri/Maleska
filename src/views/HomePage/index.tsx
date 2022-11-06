@@ -1,8 +1,7 @@
 import React from 'react';
-
-import { Image, Progress, Row } from 'antd';
-
+import { Progress, Row } from 'antd';
 // import Navbar from '../../components/NavBar';
+import bg1 from '../../images/bg1.jpeg';
 
 import './styles.scss';
 
@@ -29,8 +28,8 @@ function HomePage() {
         />
       </Row>
       <Row>
-        <div className="homepage-container__bg-1">
-          image background
+        <div className="bg1">
+          <img src={bg1} alt="" />
         </div>
       </Row>
     </div>

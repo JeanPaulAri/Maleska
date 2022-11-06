@@ -27,7 +27,7 @@ module.exports = {
     'linebreak-style': ['error', (process.platform === 'win32' ? 'windows' : 'unix')],
     'import/no-cycle': ['error', { maxDepth: Infinity }],
     'react/jsx-filename-extension':
-        [1, { extensions: ['.js', '.jsx', '.ts', '.tsx', '.css'] }],
+        [1, { extensions: ['.js', '.jsx', '.ts', '.tsx', '.css', '.jpg', '.jpeg'] }],
     'import/extensions': [
       'error',
       'ignorePackages',
@@ -36,6 +36,8 @@ module.exports = {
         jsx: 'never',
         ts: 'never',
         tsx: 'never',
+        jpg: 'never',
+        jpeg: 'never',
       },
     ],
   },
